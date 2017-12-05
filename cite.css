@@ -1,0 +1,99 @@
+
+h1,
+h2,
+h3{
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+	font-size: 45px;
+}
+
+h4{
+	margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+	font-size: 25px;
+}
+
+section {
+	display:block;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body {
+	display: table;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #8cb747;
+	
+}
+
+
+
+.bgimg-1{
+	background-image: url("img/test2.png");
+	min-height: 720px;
+}
+
+.nice-font{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.link-inside {
+	text-decoration:none;
+	color: #b0f442;
+}
+
+.my-block {
+            
+            /*display: table-cell;*/
+            /*display: table-cell;*/
+			height: 800px;
+			text-align: center;
+            vertical-align: middle;
+}
+
+
+/* Style the topnav links */
+.navBar a {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    /*float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+	padding-left: 50px;
+	padding-right: 30px;
+    /*text-decoration: none;*/
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+.my-interest {
+	font-size: 20px;
+}
+
+	

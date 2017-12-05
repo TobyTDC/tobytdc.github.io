@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+<title>Dongchen(Toby) Tang</title>
+<meta charset="uft-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="cite.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<script>
+
+function myFunction(){
+	document.getElementById("firstP").innerHTML= Date();
+}
+
+function myFunction2(){
+	document.getElementById("firstP").innerHTML= "What time is it";
+}
+
+</script>
+
+<div id="home" class="header">
+	<h1>Dongchen(Toby) Tang</h1>
+</div>
+
+<div class="navBar">
+	<a href="#home">Home</a>
+	<a href="#about">About</a>
+	<a href="#resume">Résumé</a>
+	<a href="#projects">Projects</a>
+	<a href="#travelogue">Travelogue</a>
+	<a href="#contact">Contact</a>
+</div>
+
+<p id="firstP">What time is it</p>
+
+<button type="button" onmouseover="myFunction()" onmouseleave="myFunction2()">Time</button>
+
+
+</body>
