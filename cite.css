@@ -51,6 +51,7 @@ a:focus {
 
 .bgimg-1{
 	background-image: url("img/test2.png");
+	filter:grayscale(65%);
 	min-height: 720px;
 }
 
@@ -68,6 +69,18 @@ a:focus {
             /*display: table-cell;*/
             /*display: table-cell;*/
 			height: 800px;
+			text-align: center;
+            vertical-align: middle;
+}
+
+.my-block-projects {
+			height: 1600px;
+			text-align: center;
+            vertical-align: middle;
+}
+
+.my-block-travelogue {
+			height: 3000px;
 			text-align: center;
             vertical-align: middle;
 }

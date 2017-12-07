@@ -24,9 +24,9 @@
 	float: left;
 	overflow: hidden;
 	margin: 10px 1%;
-	min-width: 320px;
+	min-width: 380px;
 	max-width: 480px;
-	max-height: 360px;
+	max-height: 320px;
 	width: 48%;
 	background: #3085a3;
 	text-align: center;
@@ -490,7 +490,7 @@ figure.effect-layla figcaption::after {
 }
 
 figure.effect-layla h2 {
-	padding-top: 26%;
+	padding-top: 5%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 }
@@ -518,7 +518,7 @@ figure.effect-layla p {
 }
 
 figure.effect-layla:hover img {
-	opacity: 0.7;
+	opacity: 0.3;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
