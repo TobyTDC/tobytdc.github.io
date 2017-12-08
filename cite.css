@@ -52,6 +52,8 @@ a:focus {
 .bgimg-1{
 	background-image: url("img/test2.png");
 	filter:grayscale(65%);
+	width: 100%;
+	background-size:cover;
 	min-height: 720px;
 }
 
@@ -68,7 +70,7 @@ a:focus {
             
             /*display: table-cell;*/
             /*display: table-cell;*/
-			height: 800px;
+			height: 1000px;
 			text-align: center;
             vertical-align: middle;
 }
@@ -83,6 +85,18 @@ a:focus {
 			height: 3000px;
 			text-align: center;
             vertical-align: middle;
+}
+
+.my-block-illu {
+			height: 400px;
+			width: 800px;
+}
+
+.img-illu {
+			max-height: 400px;
+			max-width: 800px;
+			border-radius: 50px;
+			background-size:cover;
 }
 
 /* Style the topnav links */
@@ -147,4 +161,60 @@ a:focus {
   left: 50%;
   transform: translate(-50%, -20%);
   -ms-transform: translate(-50%, -50%);
+}
+
+
+/* Outer */
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+}
+ 
+/* Inner */
+.popup-inner {
+    max-width:95%;
+	height: 80%;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    box-shadow:0px 2px 6px rgba(0,0,0,1);
+	color: black;
+    border-radius:3px;
+    background:#fff;
+}
+ 
+/* Close Button */
+.popup-close {
+    width:60px;
+    height:60px;
+    padding-top:5px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-size:40px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+ 
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
 }

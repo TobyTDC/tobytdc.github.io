@@ -20,6 +20,7 @@
 
 /* Common style */
 .grid figure {
+	border-radius: 40px;
 	position: relative;
 	float: left;
 	overflow: hidden;
