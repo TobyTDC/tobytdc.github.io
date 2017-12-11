@@ -19,6 +19,8 @@ h4{
 	font-size: 25px;
 }
 
+
+
 section {
 	display:block;
 }
@@ -103,6 +105,14 @@ a:focus {
 			height: 340px;
 			text-align: center;
             vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) and (min-width: 1px){
+	.my-block-projects {
+			height: 3500px;
+			text-align: center;
+            vertical-align: middle;
+}
 }
 
 /* Style the topnav links */
