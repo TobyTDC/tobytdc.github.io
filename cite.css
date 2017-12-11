@@ -82,7 +82,7 @@ a:focus {
 }
 
 .my-block-travelogue {
-			height: 3500px;
+			height: 3100px;
 			text-align: center;
             vertical-align: middle;
 }
@@ -97,6 +97,12 @@ a:focus {
 			max-width: 800px;
 			border-radius: 50px;
 			background-size:cover;
+}
+
+.my-block-contact {
+			height: 340px;
+			text-align: center;
+            vertical-align: middle;
 }
 
 /* Style the topnav links */
